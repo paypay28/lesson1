@@ -45,6 +45,16 @@ body{
     list-style-type: none;
 }
 
+.nav-link{
+        color: var(--prim);
+        text-decoration: none;
+        transition: color .5s ease-in
+}
+
+.nav-link:hover{
+    color: var(--prim);
+}
+
 .row{
     display: flex;
     /* flex-direction: row-reverse; */
