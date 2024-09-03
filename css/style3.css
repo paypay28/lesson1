@@ -108,6 +108,12 @@ body{
     /* border: 1px solid black; */
 }
 
+#myName{
+    color: var(--sec);
+    font-family: var(--font2);
+    font-size: 48px;
+}
+
 
 #row1{
     flex-direction: row-reverse;
