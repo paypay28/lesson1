@@ -1,0 +1,119 @@
+/* using flex box to handle layout*/
+:root{
+    --prim:red;
+    --sec:blue;
+    --tert:white;
+    --font1: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    --font2:"Roboto", sans-serif;
+}
+
+*{box-sizing: border-box;}
+
+/* tag names*/
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: var(--tert);
+}
+
+/*classes*/
+
+.box{
+    display: flex;
+    justify-content: space-between;
+}
+
+.colophon{
+    text-align: center;
+}
+
+.container{
+    margin: 0 auto;
+    width: 94%;
+    /* border: 1px solid black; */
+}
+
+.form{
+    /* padding-top: 15px; */
+    text-align: right;
+}
+.nav{
+    display: flex;
+    justify-content: space-around;
+    padding-left: 0;
+    list-style-type: none;
+}
+
+.row{
+    display: flex;
+    /* flex-direction: row-reverse; */
+    justify-content: space-between;
+}
+
+.search-label{
+    display: none;
+}
+
+
+.section{
+    padding: 20px 0;
+}
+
+.text{
+    padding: 0 15px;
+}
+
+
+/*ids*/
+
+#block1,#block2{
+    padding: 0 15px;
+    width: 45%;
+    /* border: 1px solid seagreen; */
+}
+
+#block5,#block6,#block7{
+    width: 30%;
+    /* border: 1px solid dodgerblue; */
+}
+
+#blockText2,#figure1{
+    width: 100%;
+    /* border:1px solid salmon ; */
+}
+
+#blockText3,#blockText4{
+    padding: 0 15px;
+}
+
+#figure2{
+    text-align: center;
+}
+
+#header{
+    width: 100%;
+    padding: 8px 0;
+}
+
+#header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#myName,#topNav, .form{
+    margin: 0;
+    width:30%;
+    /* border: 1px solid black; */
+}
+
+
+#row1{
+    flex-direction: row-reverse;
+}
+
+#section3 .container{
+    display: flex;
+    justify-content:space-between ;
+}
